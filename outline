@@ -1,0 +1,14 @@
+
+Background image
+
+Title
+Paragraph explaining what to do 
+
+Title and input box for each category (shoulders, bust, waist, hips)
+Button to calculate body shape - "Click to calculate"
+
+After calculate button is clicked a message appears telling the user what their body shape is.
+Maybe also have top tips for that body shape pop up too?
+
+The button text changes to "Re-calculate"
+When recalcute button is clicked everything sets back to empty and button text goes back to "click to calcuate"

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Body Shape Calculator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <img
+            class="top-img"
+            src="img/body-shape-img.jpg" alt="different body shapes"/>
+            <div class="description-text">
+                <p><a href="http://www.freepik.com">Designed by Freepik</a></p>
+                <h1>Body Shape Calculator</h1>
+                <p class="description">Enter your measurements below to find out your body shape</p>
+            </div>
+        <form action="" class="form">
+            <div class="form-element">
+                <label for="shoulders">Shoulders:</label>
+                <input type="text" name="shoulders" id="shoulders"/>
+            </div>
+            <!--<div class="form-element">
+                <label for="bust">Bust:</label>
+                <input type="text" name="bust" id="bust"/>
+            </div>-->
+            <div class="form-element">
+                <label for="waist">Waist:</label>
+                <input type="text" name="waist" id="waist"/>
+            </div>
+            <div class="form-element">
+                <label for="hips">Hips:</label>
+                <input type="text" name="hips" id="hips"/>
+            </div>
+            <div class="form-element button-element">
+                <button class="calculate" type="submit">Calculate Body Shape</button>
+            </div>
+        </form>
+        <p class="error"></p>
+        <h3 class="result"></h3>
+        <div class="hide">
+            <button class="start-over" type="submit">Start Over</button>
+        </div>
+        
+        <div class="tips"></div>
+    </div>
+
+  
+</body>
+
+</html>
