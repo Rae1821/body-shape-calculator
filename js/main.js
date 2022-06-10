@@ -26,7 +26,7 @@ button.addEventListener("click", function(e) {
        return;
    } else if (hipValue / shoulderValue >= 1.05) {
         result.innerText = "You have a Pear Body Shape.";
-    } else if (shoulderValue / hipValue >- 1.05 && waistValue === shoulderValue) {
+    } else if (shoulderValue / hipValue >= 1.05 && waistValue === shoulderValue) {
         result.innerText = "You have an Apple Body Shape";
     } else if (waistValue / shoulderValue <= 0.75 && waistValue / hipValue <= 0.75 && (hipValue * 0.95) < shoulderValue) {
         result.innerText = "You have an Hourglass Body Shape";

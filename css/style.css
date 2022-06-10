@@ -57,7 +57,7 @@ form input {
 h1 {
     width: 100%;
     text-align: center;
-    color: #FF5717;
+    color: #ff5717;
     font-weight: 500;
 }
 
@@ -76,7 +76,7 @@ h1 {
 
 
 button {
-    background-color: #FF5717;
+    background-color: #ff5717;
     padding: 20px 40px;
     margin-top: 2em;
     width: 100%;
@@ -92,7 +92,7 @@ button {
 }
 
 button:hover {
-    background-color:#FFD8D1;
+    background-color: #FFD8D1;
 }
 
 button:active {
