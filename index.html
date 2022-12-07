@@ -18,14 +18,17 @@
 <body>
 
     <div class="container">
+        <!-- Hero Image-->
         <img
             class="top-img"
             src="img/body-shape-img.jpg" alt="different body shapes"/>
             <div class="description-text">
-                <p><a href="http://www.freepik.com">Designed by Freepik</a></p>
-                <h1>Body Shape Calculator</h1>
+                <p><a href="http://www.freepik.com" id="designed">Designed by Freepik</a></p>
+                <h1 class="text-pop-up-top">Body Shape Calculator</h1>
                 <p class="description">Enter your measurements below to find out your body shape</p>
             </div>
+
+         <!-- Input form for measurements-->   
         <form action="" class="form">
             <div class="form-element">
                 <label for="shoulders">Shoulders:</label>
@@ -43,13 +46,84 @@
                 <button class="calculate" type="submit">Calculate Body Shape</button>
             </div>
         </form>
+
+        <!-- Error message if no measurements are added-->
         <p class="error"></p>
-        <h3 class="result"></h3>
-        <div class="hide">
-            <button class="start-over" type="submit">Start Over</button>
+            
+        <!-- Tips and result hidden by default-->
+        <div class="tips">
+          <h3 class="result"></h3>
+            <div id="pear" class="pear hide">
+                <h4 class="traits">
+                    Traits for the pear body shape can include:
+                </h4>
+                <ul>
+                    <li>Hips are wider than shoulders</li>
+                    <li>Small-ish defined waist</li>
+                    <li>Small bust</li>
+                    <li>Carry extra weight in hips and thighs</li>
+                </ul>
+                <a href="https://theconceptwardrobe.com/build-a-wardrobe/pear-body-shape" target="_blank">Click here to learn more about the pear body shape!</a>
+            </div>
+
+            <div id="apple" class="apple hide">
+                <h4 class="traits">
+                    Traits for the apple body shape can include:
+                </h4>
+                <ul>
+                    <li>Larger bust</li>
+                    <li>Less defined waist</li>
+                    <li>slim legs and narrow hips</li>
+                    <li>Carry extra weight in the midsection</li>
+                </ul>
+                <a href="https://theconceptwardrobe.com/build-a-wardrobe/apple-body-shape#:~:text=The%20best%20way%20to%20flatter,show%20off%20the%20wider%20midriff" target="_blank">Click here to learn more about the apple body shape!</a>
+            </div>
+
+            <div id="inverted" class="inverted hide">
+                <h4 class="traits">
+                    Traits for the inverted triangle body shape can include:
+                </h4>
+                <ul>
+                    <li>Shoulders are wider than hips</li>
+                    <li>small to large bust</li>
+                    <li>Somewhat defined waist</li>
+                    <li>Slim legs and narrow hips</li>
+                </ul>
+                <a href="https://theconceptwardrobe.com/build-a-wardrobe/inverted-triangle-body-shape" target="_blank">Click here to learn more about the inverted triangle body shape!</a>
+            </div>
+     
+            <div id="rectangle" class="rectangle hide">
+                <h4 class="traits">
+                    Traits for the rectangle body shape can include:
+                </h4>
+                <ul>
+                    <li>Hips, waist, and shoulders are similar measurements</li>
+                    <li>Waist is not very defined</li>
+                    <li>Slim legs</li>
+                    <li>Carry extra weight evenly across hips, waist, and shoulders</li>
+                </ul>
+                <a href="#">Click here to learn more about the rectangle body shape!</a>
+            </div>
+     
+            <div id="hourglass" class="hourglass hide">
+                <h4 class="traits">
+                    Traits for the hourglass body shape can include:
+                </h4>
+                <ul>
+                    <li>Small defined waist</li>
+                    <li>Hips and shoulders roughly the same measurement</li>
+                    <li>Larger bust</li>
+                    <li>Carry extra weight in hips, thighs, and bust</li>
+                </ul>
+                <a href="https://theconceptwardrobe.com/build-a-wardrobe/hourglass-body-shape" target="_blank">Click here to learn more about the hourglass body shape!</a>
+            </div>
         </div>
         
-        <div class="tips"></div>
+        <!-- Start Over Button -->
+        <div>
+            <button class="start-over hide" type="submit">Start Over</button>
+        </div>
+
     </div>
 
   
